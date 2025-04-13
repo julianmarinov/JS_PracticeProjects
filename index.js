@@ -12,7 +12,7 @@ console.log(sum(5, 10));
 
 function isEven(num) {
     if (isNaN(num)) {
-        console.log(`"${num}" is not a number!`);
+        return `"${num}" is not a number!`;
     } else if ((num % 2) === 0) {
         return 'Even';
     } else {
@@ -71,12 +71,34 @@ console.log(factorial(5));
 // 6. FizzBuzz
 // Write a function fizzBuzz(n) that prints the numbers from 1 to n. For multiples of 3, print "Fizz", for multiples of 5 print "Buzz", and for multiples of both 3 and 5 print "FizzBuzz".
 
+function fizzBuzz(n) {
+    for (i = 1; i < (n + 1); i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            console.log('FizzBuzz');
+        } else if (i % 3 === 0) {
+            console.log('Fizz');
+        } else if (i % 5 === 0) {
+            console.log('Buzz');
+        } else {
+            console.log(i);
+        }
+    }
+}
 
+console.log(fizzBuzz(15));
 
 // 7. Palindrome Check
 // Write a function isPalindrome(str) that returns true if the given string is a palindrome (same forwards and backwards), otherwise false.
 
+function isPalindrome(str) {
+    if (str === str.split('').reverse().join('')) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
+console.log(isPalindrome('madam'));
 
 // 8. Find the Smallest Number in an Array
 // Write a function minInArray(arr) that returns the smallest number in an array.
