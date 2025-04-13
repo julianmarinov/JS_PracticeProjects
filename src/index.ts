@@ -1,16 +1,16 @@
 // 1. Sum of Two Numbers
 // Write a function sum(a, b) that returns the sum of two numbers.
 
-function sum(a, b) {
+function sum(a: number, b:number) {
     return a + b;
 }
 
-// console.log(sum(5, 10));
+console.log(sum(5, 10));
 
 // 2. Even or Odd
 // Write a function isEven(num) that returns "Even" if the number is even and "Odd" if the number is odd.
 
-function isEven(num) {
+function isEven(num:number) {
     if (isNaN(num)) {
         return `"${num}" is not a number!`;
     } else if ((num % 2) === 0) {
@@ -20,12 +20,12 @@ function isEven(num) {
     }
 }
 
-// console.log(isEven(14));
+console.log(isEven(14));
 
 // 3. Find the Largest Number
 // Write a function maxOfThree(a, b, c) that returns the largest of three numbers.
 
-function maxOfThree(a, b, c) {
+function maxOfThree(a: number, b: number, c: number): string {
     let max = a;
     if (isNaN(a) || isNaN(b) || isNaN(c)) {
         return `"${a}" is not a number!`;
@@ -38,35 +38,35 @@ function maxOfThree(a, b, c) {
     return `Between ${a}, ${b} and ${c}, the largest number is ${max}.`;
 }
 
-// console.log(maxOfThree(-4, 18, -423));
+console.log(maxOfThree(-4, 18, -423));
 
 // 4. Reverse a String
 // Write a function reverseString(str) that returns the reverse of the given string.
 
-function reverseString(str) {
+function reverseString(str: string):string {
     return str.split('').reverse().join('');
 }
 
-// console.log(reverseString('Test'));
+console.log(reverseString('Test'));
 
 // 5. Factorial
 // Write a function factorial(n) that returns the factorial of a non-negative integer n.
 
-function factorial(n) {
-    let fact = n;
+function factorial(n: number): string {
+    let fact: number = n;
     if (isNaN(n) || n < 0) {
         return `"${n}" is not a positive number!`;
     }
     if (n === 0 || n === 1) {
         return `${n} factorial = 1`;
     }
-    for (let i = 1; i < n; i++) {
+    for (let i:number = 1; i < n; i++) {
         fact = fact*i;
     }
     return `${n} factorial = ${fact}`;
 }
 
-// console.log(factorial(5));
+console.log(factorial(5));
 
 // 6. FizzBuzz
 // Write a function fizzBuzz(n) that prints the numbers from 1 to n. For multiples of 3, print "Fizz", for multiples of 5 print "Buzz", and for multiples of both 3 and 5 print "FizzBuzz".
@@ -85,67 +85,27 @@ function fizzBuzz(n) {
     }
 }
 
-// console.log(fizzBuzz(15));
+console.log(fizzBuzz(15));
 
 // 7. Palindrome Check
 // Write a function isPalindrome(str) that returns true if the given string is a palindrome (same forwards and backwards), otherwise false.
 
-function isPalindrome(testStr) {
-    if (testStr === testStr.split('').reverse().join('')) { // I know there's a way to simplify this line!
-        return true;
-    } else {
-        return false;
-    }
-}
 
-// console.log(isPalindrome('madam'));
 
 // 8. Find the Smallest Number in an Array
 // Write a function minInArray(arr) that returns the smallest number in an array.
 
-function minInArray(arr) {
-    return arr.toSorted()[0];
-}
 
-// console.log(minInArray([4,5,1,-2,3]));
 
 // 9. Count Vowels
 // Write a function countVowels(str) that returns the number of vowels in a given string.
 
-function countVowels(vowStr) {
-    let vCount = 0;
-    const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
-    for (let i = 0; i < vowStr.length; i++) {
-        for (let a = 0; a < vowels.length; a++){
-            if (vowStr.charAt(i) === vowels[a]) {
-                vCount++;
-            }
-        }
 
-    }
-    return vCount;
-}
-
-// console.log(countVowels('hello world I say'));
 
 // 10. Remove Duplicates from an Array
 // Write a function removeDuplicates(arr) that returns a new array with all duplicates removed.
-//                                                                                               ### I AM STUCK HERE ###
-function removeDuplicates(phrase) {
-    const phraseLo = phrase.toLowerCase().split('');
-    let tempChar = '';
-    for (let i = 0; i < phraseLo.length; i++) {
-        if (tempChar === phraseLo.indexOf(i)) {
-            phraseLo.toSpliced(i);
-        } else {
-            continue;
-        }
-        tempChar = phraseLo.indexOf(i);
-    }
-    return phraseLo;
-}
 
-// console.log(removeDuplicates('Pappy Haans'));
+
 
 // 11. Sum of Numbers in an Array
 // Write a function sumArray(arr) that returns the sum of all numbers in an array.
