@@ -136,7 +136,7 @@ function removeDuplicates(phrase) {
     let tempChar = '';
     for (let i = 0; i < phraseLo.length; i++) {
         if (tempChar === phraseLo.indexOf(i)) {
-            phraseLo.toSpliced(i);
+            phraseLo.splice(i, 1);
         } else {
             continue;
         }
@@ -150,27 +150,59 @@ function removeDuplicates(phrase) {
 // 11. Sum of Numbers in an Array
 // Write a function sumArray(arr) that returns the sum of all numbers in an array.
 
+function sumArray(ar) {
+    let sum = 0;
+    for (i = 0; i < ar.length; i++) {
+        sum = sum + ar[i];
+    }
+    return sum;
+}
 
+// console.log(sumArray([1, 2, 3, 94]))
 
 // 12. Convert Celsius to Fahrenheit
 // Write a function celsiusToFahrenheit(c) that converts Celsius to Fahrenheit using the formula F = C * 9/5 + 32.
 
+function celsiusToFahrenheit(c) {
+    let f = c * (9/5) + 32;
+    return f;
+}
 
+// console.log(celsiusToFahrenheit(38));
 
 // 13. Generate a Random Number
 // Write a function randomNumber(min, max) that returns a random number between min and max (inclusive).
 
+function randomNumber(min, max) {
+    const rNum = Math.floor(Math.random() * (max - min) + min);
+    return rNum;
+}
 
+// console.log(randomNumber(5, 10))
 
 // 14. Capitalize First Letter
 // Write a function capitalize(str) that capitalizes the first letter of a string.
 
+function capitalize(capStr) {
+    let newCapArr = capStr.split('');
+    newCapStr = newCapArr[0].toUpperCase() + capStr.slice(1);
+    return newCapStr;
+}
 
+// console.log(capitalize('hello world!'));
 
 // 15. Check Prime Number
 // Write a function isPrime(num) that returns true if the number is prime, otherwise false.
+//                                                                                               ### I AM STUCK HERE ###
+function isPrime(testNum) {
+    if (testNum >= 2) {
+// =============
+    } else {
+        return false;
+    }
+}
 
-
+// cosole.log(isPrime(1));
 
 // 16. Get All Prime Numbers up to N
 // Write a function getPrimes(n) that returns an array of all prime numbers up to n.
@@ -180,12 +212,29 @@ function removeDuplicates(phrase) {
 // 17. Convert String to Array
 // Write a function stringToArray(str) that splits a string into an array of words.
 
+function stringToArray(stArr) {
+    return stArr.split(' ');
+}
 
+// console.log(stringToArray('Picasso is an amazing artist'))
 
 // 18. Find Longest Word in a Sentence
 // Write a function longestWord(sentence) that returns the longest word in a sentence.
 
+function longestWord(sentence) {
+    const sentenceArr = sentence.split(' ');
+    let longestWordCandidate = sentenceArr[1];
+    for (i = 1; i < sentenceArr.length; i++) {
+        if(longesWordCandidate < sentenceArr[i]){
+            longestWordCandidate = sentenceArr[i];
+        } else {
+            continue;
+        };
+    }
+    return longestWordCandidate;
+}
 
+console.log(longestWord('This is an amazingly funny show we watched tonight, darling!'));
 
 // 19. Count Occurrences of a Character
 // Write a function countChar(str, char) that counts how many times char appears in str.
