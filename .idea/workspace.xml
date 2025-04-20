@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1604f63-76e7-4035-a3d0-63383ac0d478" name="Changes" comment="Trying to implement typescript">
-      <change afterPath="$PROJECT_DIR$/src/js_practice_problems_21_to_30.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/js_practice_problems_1_to_20.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig_old.json" beforeDir="false" />
+    <list default="true" id="a1604f63-76e7-4035-a3d0-63383ac0d478" name="Changes" comment="Leveled down a little bit, so I can get up to speed with 10 more problems.">
+      <change afterPath="$PROJECT_DIR$/src/js_practice_problems_31_to_40.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js_practice_problems_1_to_20.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
     "Node.js.index.js.executor": "Run",
     "Node.js.index.ts.executor": "Run",
     "Node.js.js_practice_problems_21_to_30.ts.executor": "Run",
+    "Node.js.js_practice_problems_31_to_40.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -88,7 +90,7 @@
       <updated>1744527695819</updated>
       <workItem from="1744527696938" duration="16274000" />
       <workItem from="1744629898675" duration="122000" />
-      <workItem from="1745062538609" duration="9993000" />
+      <workItem from="1745062538609" duration="12938000" />
     </task>
     <task id="LOCAL-00001" summary="finished up to problem 7">
       <option name="closed" value="true" />
@@ -122,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745068162832</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Leveled down a little bit, so I can get up to speed with 10 more problems.">
+      <option name="closed" value="true" />
+      <created>1745078965871</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745078965871</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +154,7 @@
     <MESSAGE value="Stuck at task 10" />
     <MESSAGE value="Stuck at task 18. Again!!!" />
     <MESSAGE value="Trying to implement typescript" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to implement typescript" />
+    <MESSAGE value="Leveled down a little bit, so I can get up to speed with 10 more problems." />
+    <option name="LAST_COMMIT_MESSAGE" value="Leveled down a little bit, so I can get up to speed with 10 more problems." />
   </component>
 </project>
