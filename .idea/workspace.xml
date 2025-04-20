@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1604f63-76e7-4035-a3d0-63383ac0d478" name="Changes" comment="Leveled down a little bit, so I can get up to speed with 10 more problems.">
-      <change afterPath="$PROJECT_DIR$/src/js_practice_problems_31_to_40.ts" afterDir="false" />
+    <list default="true" id="a1604f63-76e7-4035-a3d0-63383ac0d478" name="Changes" comment="Finished the next set of problems way faster. I am going to increase the difficulty a bit.">
+      <change afterPath="$PROJECT_DIR$/src/js_practice_problems_51_to_60.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js_practice_problems_1_to_20.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js_practice_problems_41_to_50.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js_practice_problems_41_to_50.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js_practice_problems_41_to_50.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js_practice_problems_41_to_50.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js_practice_problems_41_to_50.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/js_practice_problems_41_to_50.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,7 @@
     "Node.js.index.ts.executor": "Run",
     "Node.js.js_practice_problems_21_to_30.ts.executor": "Run",
     "Node.js.js_practice_problems_31_to_40.ts.executor": "Run",
+    "Node.js.js_practice_problems_41_to_50.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -90,7 +91,7 @@
       <updated>1744527695819</updated>
       <workItem from="1744527696938" duration="16274000" />
       <workItem from="1744629898675" duration="122000" />
-      <workItem from="1745062538609" duration="12938000" />
+      <workItem from="1745062538609" duration="19703000" />
     </task>
     <task id="LOCAL-00001" summary="finished up to problem 7">
       <option name="closed" value="true" />
@@ -132,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745078965871</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished the next set of problems way faster. I am going to increase the difficulty a bit.">
+      <option name="closed" value="true" />
+      <created>1745138382073</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745138382073</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +164,7 @@
     <MESSAGE value="Stuck at task 18. Again!!!" />
     <MESSAGE value="Trying to implement typescript" />
     <MESSAGE value="Leveled down a little bit, so I can get up to speed with 10 more problems." />
-    <option name="LAST_COMMIT_MESSAGE" value="Leveled down a little bit, so I can get up to speed with 10 more problems." />
+    <MESSAGE value="Finished the next set of problems way faster. I am going to increase the difficulty a bit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the next set of problems way faster. I am going to increase the difficulty a bit." />
   </component>
 </project>
