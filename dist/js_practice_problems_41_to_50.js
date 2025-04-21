@@ -45,7 +45,7 @@ function sumList(numbers) {
 console.log(sumList([1, 2, 3, 4]));
 // 47. Find the Longest Word in a Sentence
 // Write a function longestWord(sentence) that returns the longest word found in a string.
-function longestWord(sentence) {
+function longestWordNew(sentence) {
     let words = sentence.split(" ");
     let longest = words[0];
     for (let i = 0; i < words.length; i++) {
@@ -55,7 +55,7 @@ function longestWord(sentence) {
     }
     return longest;
 }
-console.log(longestWord('Hello my friend, how are your feelings today?'));
+console.log(longestWordNew('Hello my friend, how are your feelings today?'));
 // 48. Check if All Numbers in Array Are Positive
 // Write a function allPositive(nums) that returns true if every number in the array is positive, otherwise false.
 function allPositive(nums) {
