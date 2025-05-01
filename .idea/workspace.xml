@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1604f63-76e7-4035-a3d0-63383ac0d478" name="Changes" comment="Finished the next set of problems with increased difficulty. Almost no mistakes. Continuing with the same level of difficulty.">
+    <list default="true" id="a1604f63-76e7-4035-a3d0-63383ac0d478" name="Changes" comment="Finished the las batch of 10 problems. Going for an internship exam.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js_practice_problems_41_to_50.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js_practice_problems_41_to_50.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js_practice_problems_41_to_50.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js_practice_problems_41_to_50.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js_practice_problems_51_to_60.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js_practice_problems_51_to_60.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js_practice_problems_51_to_60.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js_practice_problems_51_to_60.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js_practice_problems_41_to_50.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/js_practice_problems_41_to_50.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js_practice_problems_51_to_60.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/js_practice_problems_51_to_60.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,33 +48,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Node.js.index.js.executor": "Run",
-    "Node.js.index.ts.executor": "Run",
-    "Node.js.js_practice_problems_21_to_30.ts.executor": "Run",
-    "Node.js.js_practice_problems_31_to_40.ts.executor": "Run",
-    "Node.js.js_practice_problems_41_to_50.ts.executor": "Run",
-    "Node.js.js_practice_problems_51_to_60.ts.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.typescriptcompiler",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.js_practice_problems_21_to_30.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.js_practice_problems_31_to_40.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.js_practice_problems_41_to_50.ts.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.js_practice_problems_51_to_60.ts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.typescriptcompiler&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-WS-251.23774.424" />
       </set>
     </attachedChunks>
   </component>
@@ -94,7 +88,10 @@
       <updated>1744527695819</updated>
       <workItem from="1744527696938" duration="16274000" />
       <workItem from="1744629898675" duration="122000" />
-      <workItem from="1745062538609" duration="26445000" />
+      <workItem from="1745062538609" duration="26877000" />
+      <workItem from="1745727174419" duration="76000" />
+      <workItem from="1745727301168" duration="127000" />
+      <workItem from="1746118962326" duration="164000" />
     </task>
     <task id="LOCAL-00001" summary="finished up to problem 7">
       <option name="closed" value="true" />
@@ -152,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745148646130</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finished the las batch of 10 problems. Going for an internship exam.">
+      <option name="closed" value="true" />
+      <created>1745226002121</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745226002121</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +182,7 @@
     <MESSAGE value="Leveled down a little bit, so I can get up to speed with 10 more problems." />
     <MESSAGE value="Finished the next set of problems way faster. I am going to increase the difficulty a bit." />
     <MESSAGE value="Finished the next set of problems with increased difficulty. Almost no mistakes. Continuing with the same level of difficulty." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished the next set of problems with increased difficulty. Almost no mistakes. Continuing with the same level of difficulty." />
+    <MESSAGE value="Finished the las batch of 10 problems. Going for an internship exam." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the las batch of 10 problems. Going for an internship exam." />
   </component>
 </project>
